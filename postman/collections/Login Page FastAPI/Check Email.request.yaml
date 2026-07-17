@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{base_url}}/auth/check-email"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"someone@example.com\"\r
+
+    }"
+order: 4492145478613890
